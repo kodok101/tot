@@ -1,0 +1,26 @@
+#!/usr/bin/bash
+termux-setup-storage
+apt update
+apt upgrade -y
+apt dist-upgrade -y
+apt install x11-repo -y
+apt install termux-api -y
+apt install git -y
+apt install python -y
+apt install mc -y
+apt install zsh -y
+apt install toilet -y
+apt install figlet -y
+apt install cloudflared -y
+gem install lolcat
+pkg update
+pkg upgrade
+pkg install python
+pkg install python2
+pkg install git
+pip install requests
+pip install mechanize
+pip install bs4
+pip install stdiomask
+pip install rich
+pip install --upgrade pip
